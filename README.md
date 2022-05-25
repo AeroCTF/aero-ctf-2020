@@ -4,21 +4,21 @@ Aero CTF 2020 was held on February 29, 2020.
 
 This repository was restored 2 years after the competition and saved for history. But there may be some problems with consistency, missing files, etc. Anyway, when possible, it contains source codes and solutions for challenges.
 
-Results, writeups, feedback and so on: ctftime.org/event/940
+Results, writeups, feedback and so on: [ctftime.org/event/940](https://ctftime.org/event/940)
 
 ## Organizers
 
 Challenge authors:
 
-- @revervand (Telegram: [@revker](https://t.me/revker))
-- @MalumK (Telegram: [@MalumK](https://t.me/MalumK))
-- @zmir1 (Telegram: [@Z_MIR1](https://t.me/Z_MIR1))
-- @XeoneriX (Telegram: [@XeoneriX](https://t.me/xeonerix))
-- @keltecc (Telegram: [@keltecc](https://t.me/keltecc))
+- [@revervand](https://github.com/revervand) (Telegram: [@revker](https://t.me/revker))
+- [@MalumK](https://github.com/MalumK) (Telegram: [@MalumK](https://t.me/MalumK))
+- [@zmir1](https://github.com/zmir1) (Telegram: [@Z_MIR1](https://t.me/Z_MIR1))
+- [@XeoneriX](https://github.com/XeoneriX) (Telegram: [@XeoneriX](https://t.me/xeonerix))
+- [@keltecc](https://github.com/keltecc) (Telegram: [@keltecc](https://t.me/keltecc))
 
 Infrastructure support:
 
-- @XeoneriX (Telegram: [@XeoneriX](https://t.me/xeonerix))
+- [@XeoneriX](https://github.com/XeoneriX) (Telegram: [@XeoneriX](https://t.me/xeonerix))
 
 ## Challenges
 
