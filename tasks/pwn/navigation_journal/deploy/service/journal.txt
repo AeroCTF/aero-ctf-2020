@@ -1,0 +1,4 @@
+NAVIGATION JOURNAL
+TEST ENTRY 1
+TEST ENTRY 2
+Please check all funcs

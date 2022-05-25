@@ -1,0 +1,44 @@
+[I][2020-02-24T14:52:44+0000] Mode: LISTEN_TCP
+[I][2020-02-24T14:52:44+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/ld-linux-x86-64.so.2', bind:[::]:31337, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-02-24T14:52:44+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-02-24T14:52:44+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-02-24T14:52:44+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-02-24T14:52:44+0000][9] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-02-24T14:52:44+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-02-24T14:52:44+0000][9] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-02-24T14:52:44+0000] Listening on [::]:31337
+[I][2020-02-24T14:52:51+0000] New connection from: [::ffff:172.19.0.1]:57778 on: [::ffff:172.19.0.2]:31337
+[I][2020-02-24T14:52:52+0000] Executing '/var/task/ld-linux-x86-64.so.2' for '[::ffff:172.19.0.1]:57778'
+[I][2020-02-24T14:53:05+0000] pid=10 ([::ffff:172.19.0.1]:57778) exited with status: 255, (PIDs left: 0)
+[I][2020-02-24T14:54:10+0000] Mode: LISTEN_TCP
+[I][2020-02-24T14:54:10+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/ld-linux-x86-64.so.2', bind:[::]:31337, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-02-24T14:54:10+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-02-24T14:54:10+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-02-24T14:54:10+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-02-24T14:54:10+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-02-24T14:54:10+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-02-24T14:54:10+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-02-24T14:54:10+0000] Listening on [::]:31337
+[I][2020-02-24T14:54:39+0000] New connection from: [::ffff:172.20.0.1]:57050 on: [::ffff:172.20.0.2]:31337
+[I][2020-02-24T14:54:39+0000] Executing '/var/task/ld-linux-x86-64.so.2' for '[::ffff:172.20.0.1]:57050'
+[I][2020-02-24T14:55:04+0000] pid=9 ([::ffff:172.20.0.1]:57050) exited with status: 254, (PIDs left: 0)
+[I][2020-02-24T14:55:07+0000] New connection from: [::ffff:172.20.0.1]:57054 on: [::ffff:172.20.0.2]:31337
+[I][2020-02-24T14:55:07+0000] Executing '/var/task/ld-linux-x86-64.so.2' for '[::ffff:172.20.0.1]:57054'
+[I][2020-02-24T14:55:37+0000] pid=10 run time >= time limit (30 >= 30) ([::ffff:172.20.0.1]:57054). Killing it
+[I][2020-02-24T14:55:37+0000] pid=10 ([::ffff:172.20.0.1]:57054) terminated with signal: SIGKILL (9), (PIDs left: 0)
+[I][2020-02-24T14:55:46+0000] New connection from: [::ffff:172.20.0.1]:57058 on: [::ffff:172.20.0.2]:31337
+[I][2020-02-24T14:55:46+0000] Executing '/var/task/ld-linux-x86-64.so.2' for '[::ffff:172.20.0.1]:57058'
+[I][2020-02-24T14:56:16+0000] pid=11 run time >= time limit (30 >= 30) ([::ffff:172.20.0.1]:57058). Killing it
+[I][2020-02-24T14:56:16+0000] pid=11 ([::ffff:172.20.0.1]:57058) terminated with signal: SIGKILL (9), (PIDs left: 0)
+[I][2020-02-27T21:05:34+0000] Mode: LISTEN_TCP
+[I][2020-02-27T21:05:34+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/ld-linux-x86-64.so.2', bind:[::]:31337, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-02-27T21:05:34+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-02-27T21:05:34+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-02-27T21:05:34+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-02-27T21:05:34+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-02-27T21:05:34+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-02-27T21:05:34+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-02-27T21:05:34+0000] Listening on [::]:31337
+[I][2020-02-27T21:06:27+0000] New connection from: [::ffff:172.20.0.1]:57500 on: [::ffff:172.20.0.2]:31337
+[I][2020-02-27T21:06:27+0000] Executing '/var/task/ld-linux-x86-64.so.2' for '[::ffff:172.20.0.1]:57500'
+[I][2020-02-27T21:06:32+0000] pid=9 ([::ffff:172.20.0.1]:57500) exited with status: 254, (PIDs left: 0)

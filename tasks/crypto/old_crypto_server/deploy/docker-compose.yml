@@ -1,0 +1,20 @@
+version: '2.3'
+
+services:
+  task:
+    container_name: oldcrypto
+    image: image_oldcrypto
+    build: service
+    restart: always
+
+    mem_limit: 512M
+    memswap_limit: 512M
+    pids_limit: 1024
+
+    ulimits:
+      nofile:
+        soft: 1024
+        hard: 1024
+
+    ports:
+      - 44323:31337

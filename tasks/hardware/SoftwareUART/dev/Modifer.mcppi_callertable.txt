@@ -1,0 +1,16 @@
+main
+	__CC2DW
+		____DoICP
+	Soft_UART_Init
+		Get_Fosc_kHz
+		Mul_32x32_U
+		Div_32x32_S
+			SDIV3232L
+			COMFREM
+	Soft_UART_Read
+		Delay_Cyc
+	Soft_UART_Write
+		Delay_Cyc
+	crc_ccitt_update
+	Mul_8X8_U
+	Delay_10ms

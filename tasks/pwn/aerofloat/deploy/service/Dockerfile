@@ -1,0 +1,58 @@
+FROM keltecc/nsjail:latest
+
+RUN mkdir /chroot/
+WORKDIR /chroot/
+
+RUN mkdir -p ./usr/lib/ && \
+    cp -R /lib* . && \
+    cp -R /usr/lib* ./usr/
+
+RUN mkdir ./dev && \
+    mknod ./dev/null c 1 3 && \
+    mknod ./dev/zero c 1 5 && \
+    mknod ./dev/random c 1 8 && \
+    mknod ./dev/urandom c 1 9 && \
+    chmod 666 ./dev/*
+
+RUN mkdir -p ./bin/ && \
+    cp /bin/sh \
+       /bin/ls \
+       /bin/cat \
+       /bin/pwd \
+       ./bin/ && \
+    ln -s /bin/sh ./bin/bash && \
+    chmod 111 ./bin/*
+
+RUN mkdir -p ./usr/bin/ && \
+    cp /usr/bin/id \
+       /usr/bin/whoami \
+       ./usr/bin/ && \
+    chmod 111 ./usr/bin/*
+
+RUN mkdir ./etc/ && \
+    cp /etc/passwd ./etc/ && \
+    chmod 444 ./etc/*
+
+RUN mkdir ./tmp/ && \
+    chmod 777 ./tmp/ && \
+    chmod +t ./tmp/
+
+RUN mkdir -p ./var/task/
+
+ADD flag.txt ./tmp/
+ADD aerofloat ./var/task/
+ADD ld-linux-x86-64.so.2 ./var/task
+ADD libs/ ./var/task/libs
+
+RUN chmod 444 ./tmp/flag.txt && \
+    chmod 444 ./var/task/aerofloat && \
+    chmod 111 ./var/task/ld-linux-x86-64.so.2
+
+WORKDIR /
+
+ADD nsjail/nsjail.sh /nsjail.sh
+RUN chmod 555 /nsjail.sh
+
+ENTRYPOINT ["/bin/bash","/nsjail.sh"]
+CMD ["/var/task/ld-linux-x86-64.so.2", "--library-path", "/var/task/libs", "/var/task/aerofloat"]
+

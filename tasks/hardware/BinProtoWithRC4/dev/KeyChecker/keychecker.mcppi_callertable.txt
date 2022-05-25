@@ -1,0 +1,17 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	lcg0
+		Mul_16X16_U
+		Div_16X16_U
+	lcg1
+		Mul_16X16_U
+		Div_16X16_U
+	lcg2
+		Mul_16X16_U
+		Div_16X16_U
+	lcg3
+		Mul_16X16_U
+		Div_16X16_U
+	UART1_Write

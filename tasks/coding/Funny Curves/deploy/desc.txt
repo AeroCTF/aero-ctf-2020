@@ -1,0 +1,4 @@
+Prove that you are a robot, build all the curves and send me an answer!
+P.s. base64.b85encode(bz2.compress(txt.encode())).decode("UTF-8")
+
+nc <ip> <port>

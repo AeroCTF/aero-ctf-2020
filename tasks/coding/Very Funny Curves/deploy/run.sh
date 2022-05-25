@@ -1,0 +1,1 @@
+docker-compose -p CapthaV3 up --build -d 

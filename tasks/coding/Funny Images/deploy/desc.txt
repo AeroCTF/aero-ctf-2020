@@ -1,0 +1,1 @@
+We found a site on which the flag is posted but it is hidden behind a large number of captchas. As they understood, the owner does not like bots and created his own captcha generator. Although I’m not a robot, I can’t get beyond 200. Go through the entire captcha and get a reward flag.

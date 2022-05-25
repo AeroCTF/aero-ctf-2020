@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1582840089 source:d:\ctf\aero2020\aeroctf-2020-quals\tasks\softwareuart\solve\crc16\main.c
+	<stdio.h>
+	<stdlib.h>
+

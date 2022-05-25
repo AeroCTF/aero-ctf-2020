@@ -1,0 +1,9 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	UartSendPacket
+		UART1_Write
+		UartSend
+			UART1_Write
+	Delay_100ms

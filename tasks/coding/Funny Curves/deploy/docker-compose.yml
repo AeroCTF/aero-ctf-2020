@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  task:
+    container_name: captchav_2
+    image: image_captchav_2
+    build: service
+    restart: always
+
+    ports:
+      - 12345:31337

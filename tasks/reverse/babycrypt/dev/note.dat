@@ -1,0 +1,14 @@
+key: %key%
+text: test_test_test_test_test
+Encoded: 7685737a9f7895737a9f84857b769f7a657b769f78898378
+
+key: %key%
+text: qwertyuiopasdfgh
+Encoded: 717785747885858d6f7e917364686776
+
+key: %key%
+text: %flag%
+Encoded: 8185748f7b3b3a3565454584b8babbb8b441323ebc8b3a86b5899283b9c2c56d64388889b781
+
+
+*Note: in all three cases used one key*

@@ -1,0 +1,12 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877 -DL -O11111010 -fo20 -N"D:\CTF\Aero2020\aeroctf-2020-quals\tasks\SoftwareUART\dev\Modifer.mcppi" -SP"D:\CTF\Aero2020\PIC\microC\mikroC PRO for PIC\Defs\" -SP"D:\CTF\Aero2020\PIC\microC\mikroC PRO for PIC\Uses\P16\" -SP"D:\CTF\Aero2020\aeroctf-2020-quals\tasks\SoftwareUART\dev\" -SP"D:\CTF\Aero2020\aeroctf-2020-quals\tasks\Modifer\dev\" "Modifer.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'D:\CTF\Aero2020\aeroctf-2020-quals\tasks\Modifer\dev'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Modifer.c
+diagnostics: 50	123	Compiled Successfully	Modifer.c
+diagnostics: 0	127	All files Compiled in 172 ms	 
+hint: 0	1144	Used RAM (bytes): 174 (49%)  Free RAM (bytes): 178 (51%)	Used RAM (bytes): 174 (49%)  Free RAM (bytes): 178 (51%)
+hint: 0	1144	Used ROM (program words): 1470 (18%)  Free ROM (program words): 6722 (82%)	Used ROM (program words): 1470 (18%)  Free ROM (program words): 6722 (82%)
+diagnostics: 0	125	Project Linked Successfully	Modifer.mcppi
+diagnostics: 0	128	Linked in 93 ms	 
+diagnostics: 0	129	Project 'Modifer.mcppi' completed: 328 ms	 
+diagnostics: 0	103	Finished successfully: 28 фев 2020, 01:03:00	Modifer.mcppi

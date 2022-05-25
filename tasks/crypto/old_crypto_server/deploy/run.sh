@@ -1,0 +1,1 @@
+docker-compose -p oldcryptoserver up --build -d 
